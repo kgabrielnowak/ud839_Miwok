@@ -44,16 +44,16 @@ public class NumbersActivity extends AppCompatActivity {
         Log.v("NumbersActivity", "Word at index 6: " + words[6]);
 
         ArrayList<word> numbers = new ArrayList<word>();
-        numbers.add(new word("one","lutti"));
-        numbers.add(new word("two","otiiko"));
-        numbers.add(new word("three","tolookosu"));
-        numbers.add(new word("four","oyyisa"));
-        numbers.add(new word("five","massokka"));
-        numbers.add(new word("six","temmokka"));
-        numbers.add(new word("seven","kenekaku"));
-        numbers.add(new word("eight","kawinta"));
-        numbers.add(new word("nine","wo'e"));
-        numbers.add(new word("ten","na'aacha"));
+        numbers.add(new word("one","lutti", R.drawable.number_one));
+        numbers.add(new word("two","otiiko", R.drawable.number_two));
+        numbers.add(new word("three","tolookosu", R.drawable.number_three));
+        numbers.add(new word("four","oyyisa", R.drawable.number_four));
+        numbers.add(new word("five","massokka", R.drawable.number_five));
+        numbers.add(new word("six","temmokka", R.drawable.number_six));
+        numbers.add(new word("seven","kenekaku", R.drawable.number_seven));
+        numbers.add(new word("eight","kawinta", R.drawable.number_eight));
+        numbers.add(new word("nine","wo'e", R.drawable.number_nine));
+        numbers.add(new word("ten","na'aacha", R.drawable.number_ten));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
         // adapter knows how to create layouts for each item in the list, using the
